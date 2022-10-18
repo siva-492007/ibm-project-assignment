@@ -1,0 +1,25 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.container h1 {
+    margin-bottom: 2rem;
+}
+
+.container .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.container .wrapper img {
+    width: 100%;
+}
